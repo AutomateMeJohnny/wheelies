@@ -8,11 +8,15 @@ const Footer = () => {
         <div>
           <h2>Wheelies Inc TM</h2>
         </div>
-        <div>
+        <div className="links">
           {/* link to careers page */}
-          <h3>We are hiring!</h3>
+          <a>
+            <h3>We are hiring!</h3>
+          </a>
           {/* link to adoptions */}
-          <h3>Adopt a pet near you</h3>
+          <a href="https://www.utahhumane.org/">
+            <h3>Adopt a pet near you</h3>
+          </a>
         </div>
       </div>
       <div className="sub">
