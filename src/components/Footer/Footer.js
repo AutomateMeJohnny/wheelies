@@ -9,8 +9,8 @@ const Footer = () => {
           <h2>Wheelies Inc TM</h2>
         </div>
         <div className="links">
-          {/* link to careers page */}
-          <a>
+          {/* link to careers page tbd */}
+          <a href="https://devmountain.com/careers">
             <h3>We are hiring!</h3>
           </a>
           {/* link to adoptions */}
