@@ -6,7 +6,7 @@ class App extends Component {
       <div style={styles.container}>
         <div style={styles.header}>{ 'Header' }</div>
         <div style={styles.nav}>{ 'Nav Menu Here'}</div>
-        <div style={styles.home}>{ 'Home Page' }</div>
+        <div style={styles.body}>{ 'Home Page' }</div>
         <div style={styles.footer}>{ 'Footer Here' }</div>
       </div>
     );
