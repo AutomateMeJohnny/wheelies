@@ -6,7 +6,7 @@ class App extends Component {
       <div style={styles.container}>
         <div style={styles.header}>{ 'Header' }</div>
         <div style={styles.nav}>{ 'Nav Menu Here'}</div>
-        <div style={styles.home}>{ 'Home Page' }</div>
+        <div style={styles.body}>{ 'Home Page' }</div>
         <div style={styles.footer}>{ 'Footer Here' }</div>
       </div>
     );
@@ -17,7 +17,7 @@ const styles = {
   container: {
     height: '90vh', 
     display: 'grid',
-    grid: "'header header header' 125px 'nav nav nav' 75px 'body body body' 1fr 'footer footer footer' 150px / 1fr 4fr 1fr",
+    grid: "'header header header' 125px 'nav nav nav' 75px '. body .' 1fr 'footer footer footer' 150px / 1fr 4fr 1fr",
   },
   body: {
     gridArea: 'body',
