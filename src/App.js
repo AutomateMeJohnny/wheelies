@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
         {/* Header Here */}
         {/* Nav Menu Here*/}
         {/* Home Page */}
-        {/* Footer Here */}
+        <Footer />
       </div>
     );
   }
