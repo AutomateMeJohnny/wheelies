@@ -6,11 +6,11 @@ export default class Nav extends Component {
 
     handleClick = (val) => {
         if (val === 'home') {
-            this.props.history.push('/');
+            window.location.assign('/');
         } else if (val === 'about') {
-            this.props.history.push('/about');
+            window.location.assign('/about');
         } else if (val === 'wheelies') {
-            this.props.history.push('/wheelies');
+            window.location.assign('/wheelies');
         }
     }
 
@@ -18,7 +18,7 @@ export default class Nav extends Component {
         return (
             <div className="NavBody" >
                 <div className="NavItems" >
-                    <p>Home</p>
+                    <p onClick={() => this.handleClick('home')} >Home</p>
                     <p onClick={() => this.handleClick('wheelies')} >Wheelies</p>
                     <p onClick={() => this.handleClick('about')} >About us</p>
                 </div>
