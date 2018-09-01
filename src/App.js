@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import Nav from './components/Nav/Nav'
 
 class App extends Component {
   render() {
     return (
       <div>
-        Future Code Here...
         {/* Header Here */}
-        {/* Nav Menu Here*/}
+        <Nav />
         {/* Home Page */}
         {/* Footer Here */}
       </div>
